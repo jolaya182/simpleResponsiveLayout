@@ -1,11 +1,11 @@
 /**
  * title: App.js
  *
- * date: / /
+ * date: 1/27/2020
  *
  * author: javier olaya
  *
- * description: this component handles the basic routing for the webpage
+ * description: this component handles structure of the webpage
  */
 
 import React from 'react';
@@ -15,9 +15,6 @@ import LoginForm from './LoginForm.jsx';
 import illustration from '../pictures/illustration-big.png';
 import photoBig from '../pictures/photo-big.jpg';
 import photoSmall from '../pictures/photo-small.jpg';
-// eslint-disable-next-line no-unused-vars
-// eslint-disable-next-line no-unused-vars
-// import pages from '../css/index.scss';
 
 const App = () => (
   <div className="page">
@@ -41,22 +38,10 @@ const App = () => (
         />
       </div>
     </div>
-    <div className="section signUp">
-      signUp
-      {/* <img src="" /> */}
-    </div>
-    <div className="section feature1">
-      feature1
-      {/* <img src="" /> */}
-    </div>
-    <div className="section feature2">
-      feature2
-      {/* <img src="" /> */}
-    </div>
-    <div className="section feature3">
-      feature3
-      {/* <img src="" /> */}
-    </div>
+    <div className="section signUp">signUp</div>
+    <div className="section feature1">feature1</div>
+    <div className="section feature2">feature2</div>
+    <div className="section feature3">feature3</div>
   </div>
 );
 
