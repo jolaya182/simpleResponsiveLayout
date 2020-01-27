@@ -15,6 +15,7 @@ import LoginForm from './LoginForm.jsx';
 import illustration from '../pictures/illustration-big.png';
 import photoBig from '../pictures/photo-big.jpg';
 import photoSmall from '../pictures/photo-small.jpg';
+import photoTall from '../pictures/photo-tall.jpg';
 // eslint-disable-next-line no-unused-vars
 // eslint-disable-next-line no-unused-vars
 // import pages from '../css/index.scss';
@@ -24,12 +25,11 @@ const App = () => (
     <div className="section menu">menu</div>
     <div className="section header">
       <div className="photo">
-        <img
-          alt=""
-          src={photoSmall}
-          srcSet={`${photoBig} 2000w, ${photoSmall} 1000w `}
-          size="(min-width: 960px) 960px, 100vw"
-        />
+        <picture>
+          <source media="(min-width: 401px)" srcSet={photoBig} />
+          <source media="(max-width: 400px)" srcSet={photoTall} />
+          <img alt="" src={photoSmall} />
+        </picture>
       </div>
     </div>
     <div className="section content">
