@@ -28,6 +28,11 @@
     background-color: #b2d6ff;
 }
 
+.photo img{
+    width: 100%;
+    display:block;
+}
+
 .content {
     background-color: #EAEDF0;
     height: 600px;
@@ -50,6 +55,13 @@
 .feature3{
     background-color: #C8C6FA;
 }
+
+.illustration img{
+    width:100%;
+    /* max-width: 500px; */
+    display: block;
+}
+
 /* Mobile */
 @media only screen and (max-width: 400px){
     /* body{
