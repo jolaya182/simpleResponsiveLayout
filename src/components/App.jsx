@@ -12,6 +12,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Route, Switch, HashRouter as Router } from 'react-router-dom';
 import LoginForm from './LoginForm.jsx';
+import illustration from '../pictures/illustration.svg';
 
 // eslint-disable-next-line no-unused-vars
 // eslint-disable-next-line no-unused-vars
@@ -25,8 +26,12 @@ const App = () => (
       {/* <img src="" /> */}
     </div>
     <div className="section content">
-      content
-      {/* <img src="" /> */}
+      <img
+        alt="illustration"
+        className="illustration"
+        src={illustration}
+        style={{ maxWidth: '500px' }}
+      />
     </div>
     <div className="section signUp">
       signUp
