@@ -1,6 +1,6 @@
 # simpleResponsiveLayout
 
-<img src="src/pictures/mobileFirstResponsiveDesign.gif" title="mobileFirstResponsiveDesign/>
+<img src="src/pictures/mobileFirstResponsiveDesign.gif" title="mobileFirstResponsiveDesign"/>
 
 
 steps:
